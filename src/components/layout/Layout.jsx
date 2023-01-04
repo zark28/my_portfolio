@@ -5,12 +5,14 @@ import Footer from '../Footer/Footer'
 
 import { Container } from './LayoutStyles'
 
+
 export const Layout = ({children}) => {
   return (
-    <Container>
+    <Container  >
      <Header/>
-     <main>{children}</main> 
+     <main  >{children}</main> 
       <Footer/>
+  
     </Container>
   )
 }

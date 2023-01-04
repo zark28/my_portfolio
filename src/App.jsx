@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Layout,Acomplishments,Section,Hero,BgAnimation,Projects,Technologies,Timeline, } from './components'
+import BacktoTop from './components/BackTotopButton/BacktoTop'
 
 
 const App = () => {
+
+  
+
+ 
+
+  // console.log(window.scrollY);
+
+  
+  
   return (
   
 
-    <Layout>
+    <Layout >
       <Section grid>
      <Hero/>
      <BgAnimation/>
@@ -15,6 +25,9 @@ const App = () => {
       <Technologies/>
       <Timeline/>
       <Acomplishments/>
+      
+        <BacktoTop/>
+      
 
     </Layout>
    

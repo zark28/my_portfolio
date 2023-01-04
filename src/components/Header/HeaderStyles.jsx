@@ -61,7 +61,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${breakpoints.sm} {
+  @media ${breakpoints.md} {
     padding: 0.5rem;
   }
 `;
